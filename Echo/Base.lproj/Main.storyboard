@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G19009" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--News-->
         <scene sceneID="E1S-G1-e5v">
             <objects>
-                <viewController id="dLA-e6-LgG" userLabel="News" sceneMemberID="viewController">
+                <viewController id="dLA-e6-LgG" userLabel="News" customClass="NewsViewController" customModule="Echo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vi2-qx-1wd"/>
                         <viewControllerLayoutGuide type="bottom" id="4dl-sl-kfZ"/>
@@ -50,7 +50,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="75d-yJ-oFK">
-                                <rect key="frame" x="16" y="78" width="288" height="912"/>
+                                <rect key="frame" x="16" y="78" width="288" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kPl-k8-QWQ" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1000"/>
@@ -259,7 +259,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T29-3D-46Y">
-                                <rect key="frame" x="16" y="78" width="288" height="912"/>
+                                <rect key="frame" x="16" y="78" width="288" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNQ-DR-EW2" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1000"/>
@@ -468,7 +468,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HPv-zP-CSW">
-                                <rect key="frame" x="16" y="78" width="288" height="912"/>
+                                <rect key="frame" x="16" y="78" width="288" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8It-lw-Eiq" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1000"/>
@@ -886,7 +886,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iSv-dU-WNQ">
-                                <rect key="frame" x="16" y="78" width="288" height="912"/>
+                                <rect key="frame" x="16" y="78" width="288" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="roJ-pB-zHS" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1000"/>
@@ -1095,7 +1095,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Pm-je-Qoq">
-                                <rect key="frame" x="16" y="78" width="288" height="912"/>
+                                <rect key="frame" x="16" y="78" width="288" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTY-ZJ-xhF" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1000"/>
@@ -1304,7 +1304,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Saa-8A-hhL">
-                                <rect key="frame" x="16" y="78" width="288" height="912"/>
+                                <rect key="frame" x="16" y="78" width="288" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="504-MX-b9v" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1000"/>
@@ -1513,7 +1513,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qxe-1G-LLk">
-                                <rect key="frame" x="16" y="78" width="288" height="912"/>
+                                <rect key="frame" x="16" y="78" width="288" height="863"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rBy-NM-Okc" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="1000"/>
@@ -1705,7 +1705,7 @@
         <!--Issues-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" userLabel="Issues" customClass="FirstViewController" customModule="Echo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" userLabel="Issues" customClass="IssuesViewController" customModule="Echo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -2165,8 +2165,8 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="cMq-LU-yZJ" kind="relationship" relationship="viewControllers" id="o9H-xp-ul5"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="cMq-LU-yZJ" kind="relationship" relationship="viewControllers" id="o9H-xp-ul5"/>
                         <segue destination="dLA-e6-LgG" kind="relationship" relationship="viewControllers" id="hnK-8q-p3M"/>
                         <segue destination="jMi-S0-bXZ" kind="relationship" relationship="viewControllers" id="XvB-te-I1a"/>
                     </connections>
@@ -2178,7 +2178,7 @@
         <!--Forum-->
         <scene sceneID="148-y3-WWn">
             <objects>
-                <viewController id="jMi-S0-bXZ" userLabel="Forum" sceneMemberID="viewController">
+                <viewController id="jMi-S0-bXZ" userLabel="Forum" customClass="ForumViewController" customModule="Echo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OCl-Kp-OCD"/>
                         <viewControllerLayoutGuide type="bottom" id="MiI-Ez-JrP"/>
@@ -2198,7 +2198,7 @@
         <!--Search-->
         <scene sceneID="1yE-gG-wFV">
             <objects>
-                <viewController id="cMq-LU-yZJ" userLabel="Search" sceneMemberID="viewController">
+                <viewController id="cMq-LU-yZJ" userLabel="Search" customClass="SearchViewController" customModule="Echo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9Cv-Vi-pIQ"/>
                         <viewControllerLayoutGuide type="bottom" id="8A5-Ax-2Y7"/>

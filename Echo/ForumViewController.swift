@@ -1,5 +1,5 @@
 //
-//  FourthViewController.swift
+//  ForumViewController.swift
 //  Echo
 //
 //  Created by Anjalie Kini on 3/4/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class ForumViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

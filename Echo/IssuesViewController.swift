@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  IssuesViewController.swift
 //  Echo
 //
 //  Created by Anjalie Kini on 3/3/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class IssuesViewController: UIViewController {
     //MARK: Properties
 
     @IBOutlet weak var yourIssueslabel: UILabel!
@@ -33,7 +33,6 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
