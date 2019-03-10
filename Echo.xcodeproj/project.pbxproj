@@ -8,15 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		680C0B87204B3BB200117B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0B86204B3BB200117B01 /* AppDelegate.swift */; };
-		680C0B89204B3BB200117B01 /* IssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0B88204B3BB200117B01 /* IssuesViewController.swift */; };
-		680C0B8B204B3BB200117B01 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0B8A204B3BB200117B01 /* SearchViewController.swift */; };
+		680C0B89204B3BB200117B01 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0B88204B3BB200117B01 /* FirstViewController.swift */; };
+		680C0B8B204B3BB200117B01 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0B8A204B3BB200117B01 /* SecondViewController.swift */; };
 		680C0B8E204B3BB200117B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680C0B8C204B3BB200117B01 /* Main.storyboard */; };
 		680C0B90204B3BB200117B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680C0B8F204B3BB200117B01 /* Assets.xcassets */; };
 		680C0B93204B3BB200117B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680C0B91204B3BB200117B01 /* LaunchScreen.storyboard */; };
 		680C0B9E204B3BB200117B01 /* EchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0B9D204B3BB200117B01 /* EchoTests.swift */; };
 		680C0BA9204B3BB200117B01 /* EchoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0BA8204B3BB200117B01 /* EchoUITests.swift */; };
-		680C0BB7204CA12700117B01 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0BB6204CA12700117B01 /* NewsViewController.swift */; };
-		680C0BB9204CA13D00117B01 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0BB8204CA13D00117B01 /* ForumViewController.swift */; };
+		680C0BB9204CA13D00117B01 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C0BB8204CA13D00117B01 /* FourthViewController.swift */; };
+		6838E129208545700026BFD6 /* GunControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E128208545700026BFD6 /* GunControlViewController.swift */; };
+		6838E12B208546690026BFD6 /* GenderEqualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E12A208546690026BFD6 /* GenderEqualityViewController.swift */; };
+		6838E12D208546E80026BFD6 /* ClimateChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E12C208546E80026BFD6 /* ClimateChangeViewController.swift */; };
+		6838E12F208546F40026BFD6 /* LGBTQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E12E208546F40026BFD6 /* LGBTQViewController.swift */; };
+		6838E1312085470B0026BFD6 /* DACAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E1302085470B0026BFD6 /* DACAViewController.swift */; };
+		6838E133208547170026BFD6 /* BlackLivesMatterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E132208547170026BFD6 /* BlackLivesMatterViewController.swift */; };
+		6838E135208547250026BFD6 /* NetNeutralityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E134208547250026BFD6 /* NetNeutralityViewController.swift */; };
+		6838E137208547350026BFD6 /* HealthcareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E136208547350026BFD6 /* HealthcareViewController.swift */; };
+		6838E139208547400026BFD6 /* ForeignAidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E138208547400026BFD6 /* ForeignAidViewController.swift */; };
+		6838E13B2085474D0026BFD6 /* ConfederateFlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E13A2085474D0026BFD6 /* ConfederateFlagViewController.swift */; };
+		6838E13D208A39A60026BFD6 /* GunControlNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E13C208A39A60026BFD6 /* GunControlNewsViewController.swift */; };
+		6838E141208FD6100026BFD6 /* ClimateChangeNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E140208FD6100026BFD6 /* ClimateChangeNewsViewController.swift */; };
+		6838E143208FD6270026BFD6 /* DACANewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E142208FD6270026BFD6 /* DACANewsViewController.swift */; };
+		6838E145208FD6350026BFD6 /* BlackLivesMatterNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E144208FD6350026BFD6 /* BlackLivesMatterNewsViewController.swift */; };
+		6838E147208FD6470026BFD6 /* LGBTQNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E146208FD6470026BFD6 /* LGBTQNewsViewController.swift */; };
+		6838E149208FD6530026BFD6 /* NetNeutralityNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E148208FD6530026BFD6 /* NetNeutralityNewsViewController.swift */; };
+		6838E14B208FD6620026BFD6 /* ForeignAidNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E14A208FD6620026BFD6 /* ForeignAidNewsViewController.swift */; };
+		6838E14D208FD66F0026BFD6 /* ConfederateFlagNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E14C208FD66F0026BFD6 /* ConfederateFlagNewsViewController.swift */; };
+		6838E14F208FD69E0026BFD6 /* HealthcareNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E14E208FD69E0026BFD6 /* HealthcareNewsViewController.swift */; };
+		6838E151208FE2920026BFD6 /* GenderEqualityNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838E150208FE2920026BFD6 /* GenderEqualityNewsViewController.swift */; };
+		68CEC935208FEBB4007F0566 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CEC934208FEBB4007F0566 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +59,8 @@
 /* Begin PBXFileReference section */
 		680C0B83204B3BB200117B01 /* Echo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Echo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		680C0B86204B3BB200117B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		680C0B88204B3BB200117B01 /* IssuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesViewController.swift; sourceTree = "<group>"; };
-		680C0B8A204B3BB200117B01 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		680C0B88204B3BB200117B01 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		680C0B8A204B3BB200117B01 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		680C0B8D204B3BB200117B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		680C0B8F204B3BB200117B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		680C0B92204B3BB200117B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,8 +71,28 @@
 		680C0BA4204B3BB200117B01 /* EchoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680C0BA8204B3BB200117B01 /* EchoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoUITests.swift; sourceTree = "<group>"; };
 		680C0BAA204B3BB200117B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		680C0BB6204CA12700117B01 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		680C0BB8204CA13D00117B01 /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		680C0BB8204CA13D00117B01 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		6838E128208545700026BFD6 /* GunControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GunControlViewController.swift; sourceTree = "<group>"; };
+		6838E12A208546690026BFD6 /* GenderEqualityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderEqualityViewController.swift; sourceTree = "<group>"; };
+		6838E12C208546E80026BFD6 /* ClimateChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimateChangeViewController.swift; sourceTree = "<group>"; };
+		6838E12E208546F40026BFD6 /* LGBTQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGBTQViewController.swift; sourceTree = "<group>"; };
+		6838E1302085470B0026BFD6 /* DACAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DACAViewController.swift; sourceTree = "<group>"; };
+		6838E132208547170026BFD6 /* BlackLivesMatterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterViewController.swift; sourceTree = "<group>"; };
+		6838E134208547250026BFD6 /* NetNeutralityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetNeutralityViewController.swift; sourceTree = "<group>"; };
+		6838E136208547350026BFD6 /* HealthcareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthcareViewController.swift; sourceTree = "<group>"; };
+		6838E138208547400026BFD6 /* ForeignAidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignAidViewController.swift; sourceTree = "<group>"; };
+		6838E13A2085474D0026BFD6 /* ConfederateFlagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfederateFlagViewController.swift; sourceTree = "<group>"; };
+		6838E13C208A39A60026BFD6 /* GunControlNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GunControlNewsViewController.swift; sourceTree = "<group>"; };
+		6838E140208FD6100026BFD6 /* ClimateChangeNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClimateChangeNewsViewController.swift; sourceTree = "<group>"; };
+		6838E142208FD6270026BFD6 /* DACANewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DACANewsViewController.swift; sourceTree = "<group>"; };
+		6838E144208FD6350026BFD6 /* BlackLivesMatterNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackLivesMatterNewsViewController.swift; sourceTree = "<group>"; };
+		6838E146208FD6470026BFD6 /* LGBTQNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGBTQNewsViewController.swift; sourceTree = "<group>"; };
+		6838E148208FD6530026BFD6 /* NetNeutralityNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetNeutralityNewsViewController.swift; sourceTree = "<group>"; };
+		6838E14A208FD6620026BFD6 /* ForeignAidNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignAidNewsViewController.swift; sourceTree = "<group>"; };
+		6838E14C208FD66F0026BFD6 /* ConfederateFlagNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfederateFlagNewsViewController.swift; sourceTree = "<group>"; };
+		6838E14E208FD69E0026BFD6 /* HealthcareNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthcareNewsViewController.swift; sourceTree = "<group>"; };
+		6838E150208FE2920026BFD6 /* GenderEqualityNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderEqualityNewsViewController.swift; sourceTree = "<group>"; };
+		68CEC934208FEBB4007F0566 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +144,34 @@
 			isa = PBXGroup;
 			children = (
 				680C0B86204B3BB200117B01 /* AppDelegate.swift */,
-				680C0B88204B3BB200117B01 /* IssuesViewController.swift */,
-				680C0B8A204B3BB200117B01 /* SearchViewController.swift */,
+				6838E12C208546E80026BFD6 /* ClimateChangeViewController.swift */,
+				6838E142208FD6270026BFD6 /* DACANewsViewController.swift */,
+				6838E13C208A39A60026BFD6 /* GunControlNewsViewController.swift */,
+				6838E1302085470B0026BFD6 /* DACAViewController.swift */,
+				6838E12A208546690026BFD6 /* GenderEqualityViewController.swift */,
+				6838E150208FE2920026BFD6 /* GenderEqualityNewsViewController.swift */,
+				680C0B88204B3BB200117B01 /* FirstViewController.swift */,
+				680C0B8A204B3BB200117B01 /* SecondViewController.swift */,
+				6838E132208547170026BFD6 /* BlackLivesMatterViewController.swift */,
+				6838E12E208546F40026BFD6 /* LGBTQViewController.swift */,
+				6838E134208547250026BFD6 /* NetNeutralityViewController.swift */,
+				6838E14E208FD69E0026BFD6 /* HealthcareNewsViewController.swift */,
+				6838E138208547400026BFD6 /* ForeignAidViewController.swift */,
+				6838E148208FD6530026BFD6 /* NetNeutralityNewsViewController.swift */,
+				6838E144208FD6350026BFD6 /* BlackLivesMatterNewsViewController.swift */,
+				6838E14A208FD6620026BFD6 /* ForeignAidNewsViewController.swift */,
+				6838E13A2085474D0026BFD6 /* ConfederateFlagViewController.swift */,
+				6838E146208FD6470026BFD6 /* LGBTQNewsViewController.swift */,
+				6838E14C208FD66F0026BFD6 /* ConfederateFlagNewsViewController.swift */,
+				68CEC934208FEBB4007F0566 /* ThirdViewController.swift */,
+				6838E136208547350026BFD6 /* HealthcareViewController.swift */,
+				6838E128208545700026BFD6 /* GunControlViewController.swift */,
 				680C0B8C204B3BB200117B01 /* Main.storyboard */,
 				680C0B8F204B3BB200117B01 /* Assets.xcassets */,
 				680C0B91204B3BB200117B01 /* LaunchScreen.storyboard */,
 				680C0B94204B3BB200117B01 /* Info.plist */,
-				680C0BB6204CA12700117B01 /* NewsViewController.swift */,
-				680C0BB8204CA13D00117B01 /* ForumViewController.swift */,
+				680C0BB8204CA13D00117B01 /* FourthViewController.swift */,
+				6838E140208FD6100026BFD6 /* ClimateChangeNewsViewController.swift */,
 			);
 			path = Echo;
 			sourceTree = "<group>";
@@ -271,11 +331,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				680C0B8B204B3BB200117B01 /* SearchViewController.swift in Sources */,
+				6838E14D208FD66F0026BFD6 /* ConfederateFlagNewsViewController.swift in Sources */,
+				6838E149208FD6530026BFD6 /* NetNeutralityNewsViewController.swift in Sources */,
+				6838E145208FD6350026BFD6 /* BlackLivesMatterNewsViewController.swift in Sources */,
+				6838E137208547350026BFD6 /* HealthcareViewController.swift in Sources */,
+				6838E12D208546E80026BFD6 /* ClimateChangeViewController.swift in Sources */,
+				680C0B8B204B3BB200117B01 /* SecondViewController.swift in Sources */,
 				680C0B87204B3BB200117B01 /* AppDelegate.swift in Sources */,
-				680C0BB7204CA12700117B01 /* NewsViewController.swift in Sources */,
-				680C0B89204B3BB200117B01 /* IssuesViewController.swift in Sources */,
-				680C0BB9204CA13D00117B01 /* ForumViewController.swift in Sources */,
+				6838E151208FE2920026BFD6 /* GenderEqualityNewsViewController.swift in Sources */,
+				6838E13D208A39A60026BFD6 /* GunControlNewsViewController.swift in Sources */,
+				6838E13B2085474D0026BFD6 /* ConfederateFlagViewController.swift in Sources */,
+				6838E1312085470B0026BFD6 /* DACAViewController.swift in Sources */,
+				6838E12B208546690026BFD6 /* GenderEqualityViewController.swift in Sources */,
+				6838E14B208FD6620026BFD6 /* ForeignAidNewsViewController.swift in Sources */,
+				6838E139208547400026BFD6 /* ForeignAidViewController.swift in Sources */,
+				6838E133208547170026BFD6 /* BlackLivesMatterViewController.swift in Sources */,
+				680C0B89204B3BB200117B01 /* FirstViewController.swift in Sources */,
+				6838E12F208546F40026BFD6 /* LGBTQViewController.swift in Sources */,
+				6838E147208FD6470026BFD6 /* LGBTQNewsViewController.swift in Sources */,
+				6838E143208FD6270026BFD6 /* DACANewsViewController.swift in Sources */,
+				6838E135208547250026BFD6 /* NetNeutralityViewController.swift in Sources */,
+				680C0BB9204CA13D00117B01 /* FourthViewController.swift in Sources */,
+				6838E14F208FD69E0026BFD6 /* HealthcareNewsViewController.swift in Sources */,
+				68CEC935208FEBB4007F0566 /* ThirdViewController.swift in Sources */,
+				6838E141208FD6100026BFD6 /* ClimateChangeNewsViewController.swift in Sources */,
+				6838E129208545700026BFD6 /* GunControlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
