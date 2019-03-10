@@ -1,2 +1,3 @@
 # Echo
-Political Activism Technovation Appa
+
+Echo is an efficient user-friendly social activism app. It is specifically adapted to each user’s social activism interests. After subscribing to topics and movements that they care about, a user will be able to easily view information about those issues. Within each topic, there are options to take action (sorted by the time commitment), a place to learn more by reading articles, and a moderated discussion forum. These features reduce the necessary research time and they will get people started which is often half the battle. Moreover, the app puts the available actions at your fingertips, further minimizing the time spent on non-productive actions and maximizing the time and effort directed towards helping worthwhile causes. With Echo, both fledgling and experienced activists will find it easier to get involved with the issues that they care about and to make a difference.
